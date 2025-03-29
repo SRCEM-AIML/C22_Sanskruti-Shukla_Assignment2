@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'yashr22/studentproject'
+        DOCKER_IMAGE = 'sanskrutishrikantshukla/studentproject'
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/SRCEM-AIML/C60_Yash-Rahangdale_Assignment2.git'
+                git branch: 'main', url: 'https://github.com/SRCEM-AIML/C22_Sanskruti-Shukla_Assignment2.git'
             }
         }
 
